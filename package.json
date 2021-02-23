@@ -1,0 +1,16 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "35Party Wiki",
+  "main": "index.js",
+  "repository": "https://github.com/35party/wiki",
+  "author": "paizi <admin@blw.moe>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
+  }
+}
